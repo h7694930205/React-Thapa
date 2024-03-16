@@ -1,17 +1,33 @@
+// const App = () => {
+//   return (
+//     <>
+//       <NewFunction />
+//       Welcome to My world
+//     </>
+//   )
+// };
+
+// // Nestest Function
+// const NewFunction = () => {
+//   return (
+//     <h1>Test</h1>
+//   )
+// }
+
+// export default App
+
+import Resto from './component/Basic/Resto'
+
+
+import React from 'react'
+
 const App = () => {
   return (
-    <>
-      <NewFunction />
-      Welcome to My world
-    </>
-  )
-};
-
-// Nestest Function
-const NewFunction = () => {
-  return (
-    <h1>Test</h1>
+    <div>
+      <Resto />
+    </div>
   )
 }
 
 export default App
+
